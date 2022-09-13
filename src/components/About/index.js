@@ -1,5 +1,5 @@
 import './index.scss'
-import {useState } from 'react'
+import { useState } from 'react'
 import {
   faCss3,
   faGitAlt,
@@ -15,7 +15,7 @@ import Loader from 'react-loaders'
 const About = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
 
-  
+
   setTimeout(() => {
     setLetterClass('text-animate-hover')
   }, 3000)
@@ -32,27 +32,25 @@ const About = () => {
             />
           </h1>
           <p>
-            I'm very ambitious front-end developer looking for a role in
-            established IT company with the opportunity to work with the latest
-            technologies on challenging and diverse projects.
+            Engineer from birth, chef by love, different careers at different times.
+            Today coming back to Tech, starting a new live, a new joy, a new challenge.
           </p>
-          <br/>
+          <br />
           <p align="LEFT">
-            I'm quietly confident, naturally curious, and perpetually working on
-            improving my chops one design problem at a time.
+            Hard worker, always trying to learn new stuff, and getting more and more
+            deep on code and always checking for new tools and technologies.
           </p>
-          <br/>
+          <br />
           <p>
-            If I need to define myself in one sentence that would be a family
-            person, father of a beautiful daughter, a sports fanatic,
-            photography enthusiast, and tech-obsessed!!!
+            If I need to define myself in one sentence that would be a family person,
+            father of four , a cooking fanatic, with a lot of crazy ideas!!!
           </p>
         </div>
 
         <div className="stage-cube-cont">
           <div className="cubespinner">
             <div className="face1">
-              <img src={mongodb} alt="mondoDB" color="#DD0031"/>
+              <img src={mongodb} alt="mondoDB" color="#DD0031" />
             </div>
             <div className="face2">
               <FontAwesomeIcon icon={faHtml5} color="#F06529" />

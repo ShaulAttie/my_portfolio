@@ -39,7 +39,7 @@ const Portfolio = () => {
 
                   <div className="image-box" >
                     <img
-                      src={img01}
+                      src={project.image}
                       className="projects-image"
                       alt={project.title} />
                   </div>
@@ -53,15 +53,19 @@ const Portfolio = () => {
                   <div className='buttons'>
                     <button
                       className="btn"
-                      onClick={() => window.open(project.source)}
+                      onClick={() => window.open(project.source[0])}
                     // onClick={() => alert('View Code')}
-                    >Code</button>
+                    >Client</button>
+                    <button
+                      className="btn"
+                      onClick={() => window.open(project.source[0])}
+                    // onClick={() => alert('View Code')}
+                    >Server</button>
                     <button
                       className="btn"
                       onClick={() => window.open(project.visit)}
                     >View App</button>
                   </div>
-                  )
                 </div>
               )
             })
@@ -97,15 +101,15 @@ const Portfolio = () => {
         </h1>
         <div className="proj_buttons_LR">
           <button className="left" direction="left" onClick={() => handleClick('left')}>
-          <img src={stepBac} />
+            <img src={stepBac} />
           </button>
 
           <div>{renderProjects(projects)}</div>
 
 
           <button className="right" direction="right" onClick={() => handleClick('right')}>
-          
-          <img src={stepFow} />
+
+            <img src={stepFow} />
           </button>
         </div>
       </div>

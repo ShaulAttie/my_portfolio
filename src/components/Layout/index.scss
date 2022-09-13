@@ -57,7 +57,7 @@
         font-weight: 400;
         margin-top: 0;
         position: relative;
-        margin-bottom: 40px;
+        margin-bottom: 5px;
         left: -10px;
         width: 370px;
   
@@ -88,14 +88,16 @@
       }
   
       p {
-        font-size: 13px;
+        font-size: 15px;
         color: #fff;
         font-family: sans-serif;
         font-weight: 300;
         min-width: 280px;
         max-width: fit-content;
         animation: pulse 1s;
+        margin-left: 30px;
         &:nth-of-type(1) {
+          margin-top: 35px;
           animation-delay: 1.1s;
         }
         &:nth-of-type(2) {
@@ -111,7 +113,7 @@
       left: 10%;
       top: 50%;
       transform: translateY(-50%);
-      width: 35%;
+      width: 40%;
       vertical-align: middle;
       display: table-cell;
       max-height: 90%;
