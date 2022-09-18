@@ -55,12 +55,12 @@ const Portfolio = () => {
                       className="btn"
                       onClick={() => window.open(project.source[0])}
                     // onClick={() => alert('View Code')}
-                    >Client</button>
-                    <button
+                    >{project.source[0] === "" ? 'Photos': 'Client'}</button>
+                    {project.source[1] && <button
                       className="btn"
-                      onClick={() => window.open(project.source[0])}
+                      onClick={() => window.open(project.source[1])}
                     // onClick={() => alert('View Code')}
-                    >Server</button>
+                    >Server</button>}
                     <button
                       className="btn"
                       onClick={() => window.open(project.visit)}

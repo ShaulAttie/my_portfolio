@@ -33,8 +33,6 @@ const Home = () => {
   setTimeout(() => {
     setLetterClass('text-animate-hover')
   }, 4500)
-  //   useEffect(() => {
-  // }, [])
 
   return (
     <>
@@ -71,7 +69,7 @@ const Home = () => {
               idx={22}
             />
           </h1>
-          <h2>JavaScript | HTML | CSS | React | Redux | Express | Node.js | MongoDB | SQL </h2>
+          <h2>JavaScript | HTML | CSS | React | Redux | Express | Node.js | MongoDB | SQL | Figma </h2>
           <Link to="/contact" className="flat-button">
             CONTACT ME
           </Link>
