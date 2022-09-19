@@ -5,6 +5,8 @@ import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
+import {REACT_APP_SERVICE, REACT_APP_TEMPLATE_KEY, REACT_APP_TEMPLATE_ID} from './env.js'
+
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
   const form = useRef()
@@ -13,12 +15,11 @@ const Contact = () => {
     setLetterClass('text-animate-hover')
   }, 3000)
 
-
   const sendEmail = (e) => {
     e.preventDefault()
 
     emailjs
-      .sendForm('service_5infdqq', 'template_0mzawfl', form.current, 'JnNZilEcDDJ9Kicdb')
+      .sendForm(REACT_APP_SERVICE, REACT_APP_TEMPLATE_KEY, form.current, REACT_APP_TEMPLATE_ID)
       .then(
         () => {
           alert('Message successfully sent!')

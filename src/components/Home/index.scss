@@ -108,24 +108,31 @@
       position: absolute;
       left: 50%;
     }
-    img{
+
+    img {
       opacity: 0.2;
     }
   }
 
   @media(max-width: 470px) {
     .text-zone {
-      width: 350px;
+      width: 85%;
     }
-
+.home_logosa{
+  left: 20%;
+}
     h1 {
       font-size: 40px;
+      width: 100%;
 
       img {
         height: 50px;
       }
     }
 
+    h2 {
+      width: 80%;
+    }
 
   }
 

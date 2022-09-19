@@ -207,3 +207,31 @@
     border-radius: 50px;
     background: #ffd700;
 }
+
+@media(max-width: 470px) {
+    .portfolio-page {
+        h1.page-title {
+            margin-left: -10px;
+            margin-top: 55px;
+            width: 95%;
+        }
+
+        .proj_buttons_LR {
+            margin-top: 25px;
+            width: 100%;
+            margin-left: -25px;
+        }
+
+        .projects-container {
+            width: 292px;
+            display: flex;
+            justify-content: center;
+        }
+    }
+    .right, .left{
+        // display: none;
+    }
+    .wrapper{
+        // width: 50%;
+    }
+}

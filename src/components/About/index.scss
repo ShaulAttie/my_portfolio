@@ -96,3 +96,14 @@
     }
   }
   
+  @media(max-width: 470px){
+    .stage-cube-cont{
+      left: 25%;
+    }
+    .container.about-page h1{
+      width: 200%;
+    }
+    .container.about-page p{
+      margin-left: 15px;
+    }
+  }

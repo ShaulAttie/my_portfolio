@@ -14,7 +14,7 @@ export const projects = [
     image: '/images/myPortfolio.png',
     tags: ['React', 'Sass'],
     source: ['https://github.com/ShaulAttie/my_portfolio'],
-    visit: 'https://google.com',
+    visit: 'https://my-portfolio-sa.netlify.app/',
     id: 1,
   },
   {
