@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'stepby',
     description: "StartUp project, a small team of juniors working as a strong team to accomplish this project!!!",
-    image: '../../assets/images/projects/proj04.png',
+    image: '/images/stepby.png',
     tags: ['React', 'Team Work', 'NodeJS', 'ExpressJS', 'AWS-S3', 'MongoDB'],
     source: [''],
     visit: '',
@@ -38,7 +38,7 @@ export const projects = [
   {
     title: 'ReadMate',
     description: "Boot Camp Project (from a StartUp), amazing app to help us to improve reading. Very nice experience!!!",
-    image: '../../assets/images/projects/proj03.png',
+    image: '/images/readmate.png',
     tags: ['React', 'Team Work', 'NodeJS', 'ExpressJS'],
     source: [''],
     visit: '',
