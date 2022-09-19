@@ -5,7 +5,7 @@ import emailjs from '@emailjs/browser'
 import AnimatedLetters from '../AnimatedLetters'
 import './index.scss'
 
-import {REACT_APP_SERVICE, REACT_APP_TEMPLATE_KEY, REACT_APP_TEMPLATE_ID} from './env.js'
+import {REACT_APP_SERVICE, REACT_APP_TEMPLATE_KEY, REACT_APP_TEMPLATE_ID} from './codes.js'
 
 const Contact = () => {
   const [letterClass, setLetterClass] = useState('text-animate')
