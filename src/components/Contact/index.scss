@@ -139,7 +139,7 @@
   .container.contact-page .text-zone{
     width: 90%;
     left: 5%;
-    top: 39%;
+    top: 54%;
 
     h1{
       left: 15%;
@@ -149,6 +149,8 @@
     top: 75%;
     width: 90%;
     height: 30%;
+    visibility: hidden;
+
   }
   .info-map{
     display: flex;
@@ -157,5 +159,6 @@
     font-size: xx-small;
     top: 65%;
     left: 20%;
+    visibility: hidden;
   }
 }
