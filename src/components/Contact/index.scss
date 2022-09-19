@@ -117,7 +117,7 @@
   }
 }
 
-.contact-page{
+.contact-page {
   color: red;
 }
 
@@ -135,30 +135,31 @@
   }
 }
 
-@media(max-width: 470px){
-  .container.contact-page .text-zone{
+@media(max-width: 470px) {
+  .container.contact-page .text-zone {
     width: 90%;
     left: 5%;
     top: 54%;
 
-    h1{
+    h1 {
       left: 15%;
     }
   }
-  .map-wrap{
+
+  .map-wrap {
     top: 75%;
     width: 90%;
     height: 30%;
-    visibility: hidden;
-
+    display: none;
   }
-  .info-map{
+
+  .info-map {
     display: flex;
     flex-direction: column;
     width: 42%;
     font-size: xx-small;
     top: 65%;
     left: 20%;
-    visibility: hidden;
+    display: none;
   }
 }
