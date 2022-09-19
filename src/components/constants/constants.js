@@ -50,7 +50,7 @@ export const projects = [
     image: '/images/fakeStore.png',
     tags: ['React', 'TypeScript'],
     source: ['https://github.com/ShaulAttie/FakeStore_TS'],
-    visit: 'https://google.com',
+    visit: 'https://fakestore-ts.netlify.app/',
     id: 5,
   },
   {
