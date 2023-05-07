@@ -51,21 +51,26 @@ const Portfolio = () => {
                   </div>
 
                   <div className='buttons'>
-                    <button
-                      className="btn"
-                      onClick={() => window.open(project.source[0])}
-                    // onClick={() => alert('View Code')}
-                    >{project.source[0] === "" ? 'Photos': 'Client'}</button>
-                    {project.source[1] && <button
-                      className="btn"
-                      onClick={() => window.open(project.source[1])}
-                    // onClick={() => alert('View Code')}
-                    >Server</button>}
-                    <button
-                      className="btn"
-                      onClick={() => window.open(project.visit)}
-                    >View App</button>
+                    {!(project.title === "stepby" || project.title === "ReadMate") &&
+                      <>
+                        {/* <button
+                          className="btn"
+                          onClick={() => window.open(project.source[0])}
+                        // onClick={() => alert('View Code')}
+                        >{project.source[0] === "" ? 'Photos' : 'Client'}</button>
+                        {project.source[1] && <button
+                          className="btn"
+                          onClick={() => window.open(project.source[1])}
+                        // onClick={() => alert('View Code')}
+                        >Server</button>} */}
+                        <button
+                          className="btn"
+                          onClick={() => window.open(project.visit)}
+                        >View App</button>
+                      </>
+                    }
                   </div>
+
                 </div>
               )
             })
